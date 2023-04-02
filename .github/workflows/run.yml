@@ -4,9 +4,6 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: '10 */12 * * *'
-
 env:
   UPDATE_IPV4: true
   UPDATE_IPV6: false
